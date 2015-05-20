@@ -1,0 +1,9 @@
+# Nexus stuff
+export repo_id=IN_QA
+#nexus_url="http://54.235.92.15:8081/nexus"
+export nexus_url="http://nexus-private.hortonworks.com/nexus"
+export nexus_base_url="${nexus_url}/content"
+export nexus_proxy_url="${nexus_base_url}/groups/public/"
+export nexus_repo_url="${nexus_base_url}/repositories/${repo_id}/"
+
+echo "Using nexus repo url $nexus_repo_url"
